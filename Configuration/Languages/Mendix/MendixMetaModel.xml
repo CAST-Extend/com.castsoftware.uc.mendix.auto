@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaModel file_level="client" file_no="723">
+
+    <category name="APM Mendix Module" rid="0">
+        <description>Mendix</description>
+        <inheritedCategory name="APM Client Modules" />
+    </category>
+    <category name="APM Mendix Artifacts" rid="1">
+        <description>Mendix Artifacts</description>
+        <inheritedCategory name="APM Client Language Artifacts" />
+    </category>
+    <type name="Mendix_Subset" rid="2">
+        <description>Mendix_Subset</description>
+        <inheritedCategory name="PROJECT_SUBSET" />
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="APM Mendix Module" />
+    </type>
+    <category name="Mendix" rid="9">
+        <description>Mendix</description>
+        <attribute name="extensions" stringValue="*.xml" />
+        <inheritedCategory name="UniversalLanguage" />
+        <inheritedCategory name="CsvLanguage" />
+    </category>
+
+    <type name="MendixProject" rid="10">
+        <description>MendixProject</description>
+        <inheritedCategory name="UAProject" />
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="APM Mendix Module" />
+    </type>
+
+    <type name="Mendix_actionbutton" rid="11">
+        <description>actionbutton</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_aggregatelist" rid="12">
+        <description>aggregatelist</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_appservice" rid="13">
+        <description>appservice</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_appservicecall" rid="14">
+        <description>appservicecall</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_appstore_module" rid="15">
+        <description>appstore module</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_association" rid="16">
+        <description>association</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_attribute" rid="17">
+        <description>attribute</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_breakevent" rid="18">
+        <description>breakevent</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_buildingblock" rid="19">
+        <description>buildingblock</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_callrestservice" rid="20">
+        <description>callrestservice</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_callwebservice" rid="21">
+        <description>callwebservice</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_castobject" rid="22">
+        <description>castobject</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_changelist" rid="23">
+        <description>changelist</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_changeobject" rid="24">
+        <description>changeobject</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_changevariable" rid="25">
+        <description>changevariable</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_closepage" rid="26">
+        <description>closepage</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_commitobject" rid="27">
+        <description>commitobject</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_constant" rid="28">
+        <description>constant</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_consumedappservice" rid="29">
+        <description>consumedappservice</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_continueevent" rid="30">
+        <description>continueevent</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_createlist" rid="31">
+        <description>createlist</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_createobject" rid="32">
+        <description>createobject</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_createvariable" rid="33">
+        <description>createvariable</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_dataset" rid="34">
+        <description>dataset</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_dataview" rid="35">
+        <description>dataview</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_deleteobject" rid="36">
+        <description>deleteobject</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_documenttemplate" rid="37">
+        <description>documenttemplate</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_domain_model" rid="38">
+        <description>domain model</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_downloadfile" rid="39">
+        <description>downloadfile</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_endevent" rid="40">
+        <description>endevent</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_entity" rid="41">
+        <description>entity</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_enumeration" rid="42">
+        <description>enumeration</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_errorevent" rid="43">
+        <description>errorevent</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_event" rid="44">
+        <description>event</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_exclusivesplit" rid="45">
+        <description>exclusivesplit</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_exportmapping" rid="46">
+        <description>exportmapping</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_exportxml" rid="47">
+        <description>exportxml</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_flow" rid="48">
+        <description>flow</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_folder" rid="49">
+        <description>folder</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_generatedocument" rid="50">
+        <description>generatedocument</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_image" rid="51">
+        <description>image</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_imagecollection" rid="52">
+        <description>imagecollection</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_importedwebservice" rid="53">
+        <description>importedwebservice</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_importmapping" rid="54">
+        <description>importmapping</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_importxml" rid="55">
+        <description>importxml</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_inheritancesplit" rid="56">
+        <description>inheritancesplit</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_javaaction" rid="57">
+        <description>javaaction</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_javaactioncall" rid="58">
+        <description>javaactioncall</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_javalink" rid="59">
+        <description>javalink</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_jsonstructure" rid="60">
+        <description>jsonstructure</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_layout" rid="61">
+        <description>layout</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_layoutgrid" rid="62">
+        <description>layoutgrid</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_layoutgridcolumn" rid="63">
+        <description>layoutgridcolumn</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_layoutgridrow" rid="64">
+        <description>layoutgridrow</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_listoperation" rid="65">
+        <description>listoperation</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_logmessage" rid="66">
+        <description>logmessage</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_loop" rid="67">
+        <description>loop</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_menudocument" rid="68">
+        <description>menudocument</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_merge" rid="69">
+        <description>merge</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_messagedefinitioncollection" rid="70">
+        <description>messagedefinitioncollection</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_microflow" rid="71">
+        <description>microflow</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_microflowcall" rid="72">
+        <description>microflowcall</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_module" rid="73">
+        <description>module</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_nanoflow" rid="74">
+        <description>nanoflow</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_page" rid="75">
+        <description>page</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_pagetemplate" rid="76">
+        <description>pagetemplate</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_paint" rid="77">
+        <description>paint</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_parameter" rid="78">
+        <description>parameter</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_project" rid="79">
+        <description>project</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_publishedappservice" rid="80">
+        <description>publishedappservice</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_publishedrestservice" rid="81">
+        <description>publishedrestservice</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_publishedwebservice" rid="82">
+        <description>publishedwebservice</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_referenceselector" rid="83">
+        <description>referenceselector</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_regularexpression" rid="84">
+        <description>regularexpression</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_retrieve" rid="85">
+        <description>retrieve</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_rollbackobject" rid="86">
+        <description>rollbackobject</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_rule" rid="87">
+        <description>rule</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_scheduledevent" rid="88">
+        <description>scheduledevent</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_service" rid="89">
+        <description>service</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_showhomepage" rid="90">
+        <description>showhomepage</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_showmessage" rid="91">
+        <description>showmessage</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_showpage" rid="92">
+        <description>showpage</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_snippet" rid="93">
+        <description>snippet</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_startevent" rid="94">
+        <description>startevent</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_table" rid="95">
+        <description>table</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_validationfeedback" rid="96">
+        <description>validationfeedback</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_value" rid="97">
+        <description>value</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_verticalflow" rid="98">
+        <description>verticalflow</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_webservice" rid="99">
+        <description>webservice</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+    <type name="Mendix_xmlschema" rid="100">
+        <description>xmlschema</description>
+        <inheritedCategory name="Mendix" />
+        <inheritedCategory name="UAObject" />
+        <inheritedCategory name="APM All Artifacts" />
+        <inheritedCategory name="Mendix_CustomMetrics" />
+        <tree category="EnlightenTree" parent="EnlightenUniversalObjects" />
+    </type>
+<partial_category name="APM Sources">
+    <inheritedCategory name="Mendix_CustomMetrics" />
+  </partial_category>
+  <category id="2103000" name="Mendix_CustomMetrics">
+    <description>Custom category for additional properties on Mendix</description>
+    <property id="2103002" merge="sum" name="DomainModelEntityClone" type="integer">
+      <description>Mendix: Number of DomainModelEntityClone</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="1" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103004" merge="sum" name="AvoidExcessiveCrossModuleAssociations" type="integer">
+      <description>Mendix: Number of AvoidExcessiveCrossModuleAssociations</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="2" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103006" merge="sum" name="AvoidAppStoreModuleChanges" type="integer">
+      <description>Mendix: Number of AvoidAppStoreModuleChanges</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="3" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103008" merge="sum" name="AvoidDocumentsInModuleRoot" type="integer">
+      <description>Mendix: Number of AvoidDocumentsInModuleRoot</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="4" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103010" merge="sum" name="TooManyResourcesInFolder" type="integer">
+      <description>Mendix: Number of TooManyResourcesInFolder</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="5" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103012" merge="sum" name="MissingSubfoldersForEntity" type="integer">
+      <description>Mendix: Number of MissingSubfoldersForEntity</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="6" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103014" merge="sum" name="NumberOfEntities" type="integer">
+      <description>Mendix: Number of NumberOfEntities</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="7" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103016" merge="sum" name="NumberOfModules" type="integer">
+      <description>Mendix: Number of NumberOfModules</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="8" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103018" merge="sum" name="AvoidComplexLogic" type="integer">
+      <description>Mendix: Number of AvoidComplexLogic</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="9" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103020" merge="sum" name="FanInCoupling" type="integer">
+      <description>Mendix: Number of FanInCoupling</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="10" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103022" merge="sum" name="AvoidComplexUnits" type="integer">
+      <description>Mendix: Number of AvoidComplexUnits</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="11" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103024" merge="sum" name="AvoidLongUnits" type="integer">
+      <description>Mendix: Number of AvoidLongUnits</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="12" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103026" merge="sum" name="Wrong4ColumnLayoutGrid" type="integer">
+      <description>Mendix: Number of Wrong4ColumnLayoutGrid</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="13" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103028" merge="sum" name="MissingFolderForEntity" type="integer">
+      <description>Mendix: Number of MissingFolderForEntity</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="14" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103030" merge="sum" name="ModelDeleteBehavior" type="integer">
+      <description>Mendix: Number of ModelDeleteBehavior</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="15" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103032" merge="sum" name="AvoidCalculatedAttributesWithDatabaseInteraction" type="integer">
+      <description>Mendix: Number of AvoidCalculatedAttributesWithDatabaseInteraction</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="16" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103034" merge="sum" name="AvoidCommitInBeforeAndAfterCommitAction" type="integer">
+      <description>Mendix: Number of AvoidCommitInBeforeAndAfterCommitAction</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="17" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103036" merge="sum" name="AvoidInheritanceAdministrationAccount" type="integer">
+      <description>Mendix: Number of AvoidInheritanceAdministrationAccount</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="18" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103038" merge="sum" name="AvoidInheritanceExceptSystemModule" type="integer">
+      <description>Mendix: Number of AvoidInheritanceExceptSystemModule</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="19" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103040" merge="sum" name="AvoidMultipleInheritance" type="integer">
+      <description>Mendix: Number of AvoidMultipleInheritance</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="20" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103042" merge="sum" name="AvoidTooMuchCalculatedAttributes" type="integer">
+      <description>Mendix: Number of AvoidTooMuchCalculatedAttributes</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="21" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103044" merge="sum" name="InconsistentAssociationName" type="integer">
+      <description>Mendix: Number of InconsistentAssociationName</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="22" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103046" merge="sum" name="AvoidExactlyDuplicatedMicroflow" type="integer">
+      <description>Mendix: Number of AvoidExactlyDuplicatedMicroflow</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="23" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103048" merge="sum" name="AvoidPartiallyDuplicatedMicroflow" type="integer">
+      <description>Mendix: Number of AvoidPartiallyDuplicatedMicroflow</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="24" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103050" merge="sum" name="AvoidCreateFileDocOrImage" type="integer">
+      <description>Mendix: Number of AvoidCreateFileDocOrImage</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="25" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103052" merge="sum" name="OutdatedGenerateDocumentUsed" type="integer">
+      <description>Mendix: Number of OutdatedGenerateDocumentUsed</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="26" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103054" merge="sum" name="RetrieveResultOnlyUsedInFilter" type="integer">
+      <description>Mendix: Number of RetrieveResultOnlyUsedInFilter</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="27" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103056" merge="sum" name="NumberOfActivities" type="integer">
+      <description>Mendix: Number of NumberOfActivities</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="28" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103058" merge="sum" name="MicroflowNestingTooDeep" type="integer">
+      <description>Mendix: Number of MicroflowNestingTooDeep</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="29" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103060" merge="sum" name="UseOneAggregatePerRetrieve" type="integer">
+      <description>Mendix: Number of UseOneAggregatePerRetrieve</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="30" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103062" merge="sum" name="NumberOfAttributes" type="integer">
+      <description>Mendix: Number of NumberOfAttributes</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="31" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103064" merge="sum" name="ConditionalVisibilityNestingTooDeep" type="integer">
+      <description>Mendix: Number of ConditionalVisibilityNestingTooDeep</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="32" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103066" merge="sum" name="AvoidMFNameAsStringLiteralInJACall" type="integer">
+      <description>Mendix: Number of AvoidMFNameAsStringLiteralInJACall</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="33" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103068" merge="sum" name="AvoidLargeInterfaces" type="integer">
+      <description>Mendix: Number of AvoidLargeInterfaces</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="34" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103070" merge="sum" name="SameRetrieveByAssocUsedInForm" type="integer">
+      <description>Mendix: Number of SameRetrieveByAssocUsedInForm</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="35" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103072" merge="sum" name="StylePropertyUsed" type="integer">
+      <description>Mendix: Number of StylePropertyUsed</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="36" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103074" merge="sum" name="ReferenceSelectorWithEditableNever" type="integer">
+      <description>Mendix: Number of ReferenceSelectorWithEditableNever</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="37" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103076" merge="sum" name="SameMicroflowUsedInForm" type="integer">
+      <description>Mendix: Number of SameMicroflowUsedInForm</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="38" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103078" merge="sum" name="UseOfTablesWithinDataview" type="integer">
+      <description>Mendix: Number of UseOfTablesWithinDataview</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="39" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103080" merge="sum" name="ButtonUsesImageInsteadOfIcon" type="integer">
+      <description>Mendix: Number of ButtonUsesImageInsteadOfIcon</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="40" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103082" merge="sum" name="DataviewWithOnlyADataview" type="integer">
+      <description>Mendix: Number of DataviewWithOnlyADataview</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="41" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103084" merge="sum" name="MaximumNumberofButtons" type="integer">
+      <description>Mendix: Number of MaximumNumberofButtons</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="42" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103086" merge="sum" name="StringEmptyCheckNotComplete" type="integer">
+      <description>Mendix: Number of StringEmptyCheckNotComplete</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="43" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103088" merge="sum" name="NoLogMessageInErrorHandling" type="integer">
+      <description>Mendix: Number of NoLogMessageInErrorHandling</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="44" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103090" merge="sum" name="ExclusiveSplitMustHaveCaption" type="integer">
+      <description>Mendix: Number of ExclusiveSplitMustHaveCaption</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="45" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103092" merge="sum" name="UnusedMergeActivity" type="integer">
+      <description>Mendix: Number of UnusedMergeActivity</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="46" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103094" merge="sum" name="AvoidCommitInLoop" type="integer">
+      <description>Mendix: Number of AvoidCommitInLoop</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="47" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103096" merge="sum" name="RetrieveByAssocEmptyCheck" type="integer">
+      <description>Mendix: Number of RetrieveByAssocEmptyCheck</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="48" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+    <property id="2103098" merge="sum" name="AvoidDuplicatedPage" type="integer">
+      <description>Mendix: Number of AvoidDuplicatedPage</description>
+      <attribute intValue="2103999" name="INF_TYPE" />
+      <attribute intValue="49" name="INF_SUB_TYPE" />
+      <attribute intValue="1" name="ACCESS_APPVIEW" />
+      <attribute intValue="1" name="ACCESS_CVS" />
+      <attribute intValue="1" name="ACCESS_HTML" />
+    </property>
+  </category>
+</metaModel>
